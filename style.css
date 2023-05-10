@@ -1,0 +1,100 @@
+body {
+  background-color: #2b2f31 ;
+  color: #16FF00;
+  font-family: 'IBM Plex Mono', monospace, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  color: #16FF00;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #F1F6F9;
+  font-size: 15px;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 40px auto;
+  }
+}
+
+.card-white {
+  background: #000000;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+  margin: 20px auto;
+  text-align: center;
+}
+
+.link-box {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #d93fdc;
+}
+
+.link-box:hover {
+  background-color: #FFED00;
+  color: black;
+}
+
+.image-icon:hover {
+  background-color: #d93fdc;
+}
+
+.image-cirle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  display: inline;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.image-icon {
+  background-color: white;
+  border-radius: 50%;
+}
